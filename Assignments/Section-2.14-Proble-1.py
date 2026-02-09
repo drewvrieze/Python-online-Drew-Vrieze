@@ -1,3 +1,11 @@
+#----------------------------------
+#Name: Section 2.14 Problem 1
+#Purpose: variables and statements
+#
+#Author: DrewV
+#
+#Created: 02/02/2024
+#----------------------------------
 a = "All"
 b = "work"
 c = "and"
