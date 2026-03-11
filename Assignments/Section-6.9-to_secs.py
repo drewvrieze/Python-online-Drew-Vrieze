@@ -1,5 +1,5 @@
 #----------------------------
-# Name: Section 3 Seconds
+# Name: Section 6 secs
 # Purpose: covert hours and minutes to seconds
 #
 # Author: DrewV
