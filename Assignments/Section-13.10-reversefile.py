@@ -26,8 +26,8 @@ reverselines("sup")
 def reverselines(file):
     old = open(file, "r")
     new = open(file + ".reversed", "w")
-        buf = old.readlines()
-        for line in reversed(buf):
+    buf = old.readlines()
+    for line in reversed(buf):
             new.write(line)
 
     old.close()
