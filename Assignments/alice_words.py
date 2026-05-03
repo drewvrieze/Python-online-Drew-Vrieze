@@ -28,5 +28,7 @@ print("=" * 36)
 for word in count[:100]:
     print(f"{word[0]:<30} {word[1]}")
 
+alice.close()
+
 # I could not figure out how to get rid of the symbols that are conecting words
 # in the middle which got counted weird such as alice)-"and but i tried my best
