@@ -85,7 +85,7 @@ def IsIn(word, guess):
         return False
     else:
         return positions
-    
+
 # Set up display
 def wordDisplay(word):
     pass
@@ -127,9 +127,6 @@ def parts(hang3):
     part3 = hang3
     return part1, part2, part3
     
-    
-
-
 # Create the game loop #DONE#
 def repeat():
     leave = input("Enter y/Y to try again: ")
@@ -150,6 +147,7 @@ def clearScreen():
 def main():
     clearScreen()
     mod = mode()
+    clearScreen()
     word = randomWord(mod)
     wrong = 0
     letters = []
@@ -175,9 +173,14 @@ def main():
             print(f"The word was {word}")
             break
     repeat()
+
+def run_tests():
+    assert IsIn("apple", "p") == [1, 2]
+    assert IsIn("apple", "z") == False
     
 # Make it by level
 
 #DONE#
 if __name__ == "__main__":
+    run_tests()
     main()
